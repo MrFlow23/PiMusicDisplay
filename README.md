@@ -17,7 +17,8 @@ PiMusicDisplay is a graphical application to show the information of a currently
 
 ### Requirements
 
-- python 3 (several packages might be needed; I am wondering if requirements.txt really captures them all)
+- python 3
+- required python packages: python3, python3-tk, python3-dbus, python3-pil, python3-pil.imagetk, xorg, lirc, python3-lirc (I hope that's all; if not, the console will tell you what is missing ;-)
 - mopidy and/or spotify-connect-web (both connecting via their http api's)
 - lirc for ir-remote control
 
